@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TodoTemplate from './components/TodoTemplate'
 
-function App() {
-  return (
-    <div className="App">
-      Start
-    </div>
-  );
-}
+const App = () => {
+    return (
+       <TodoTemplate>투두두두두ㅜ</TodoTemplate>
+    );
+};
 
 export default App;
