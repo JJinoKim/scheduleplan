@@ -1,9 +1,12 @@
 import React from 'react';
-import TodoTemplate from './components/TodoTemplate'
+import TodoTemplate from './components/TodoTemplate';
+import TodoInsert from './components/TodoInsert';
 
 const App = () => {
     return (
-       <TodoTemplate>투두두두두ㅜ</TodoTemplate>
+       <TodoTemplate>
+           <TodoInsert />
+       </TodoTemplate>
     );
 };
 
